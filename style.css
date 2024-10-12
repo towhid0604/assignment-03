@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(171, 239, 95);
+  --primary-light: rgba(171, 239, 95, 0.5);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-color);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+.conatct-bg{
+	background-image:src="./assets/bg.jpg";
+}
+.bg-header {
+  background: linear-gradient(
+    0deg,
+    rgb(56, 55, 55),
+    rgba(57, 55, 55, 0) 100%
+  );
+}
